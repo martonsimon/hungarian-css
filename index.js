@@ -98,12 +98,12 @@ const hungarianCss = (opts = {}) => {
                 'kutatás': 'quotes',
                 
                 // User Interface
-                'mutató': 'cursor',
-                'kijelzés': 'outline',
-                'kijelzés-szín': 'outline-color',
-                'kijelzés-stílus': 'outline-style',
-                'kijelzés-vastagság': 'outline-width',
-                'kijelzés-offset': 'outline-offset',
+                'kurzor-mutató': 'cursor',
+                'kurzor-mutató-kijelzés': 'outline',
+                'kurzor-mutató-kijelzés-szín': 'outline-color',
+                'kurzor-mutató-kijelzés-stílus': 'outline-style',
+                'kurzor-mutató-kijelzés-vastagság': 'outline-width',
+                'kurzor-mutató-kijelzés-offset': 'outline-offset',
                 
                 // Transitions & Animations
                 'átmenet': 'transition',
@@ -152,10 +152,10 @@ const hungarianCss = (opts = {}) => {
                 'rács-sablon-sorok': 'grid-template-rows',
                 'rács-sablon-területek': 'grid-template-areas',
                 'rács-sablon': 'grid-template',
+                'tér': 'gap',
                 'rács-auto-oszlopok': 'grid-auto-columns',
                 'rács-auto-sorok': 'grid-auto-rows',
                 'rács-auto-folyam': 'grid-auto-flow',
-                'rács': 'grid',
                 'rács-oszlop-start': 'grid-column-start',
                 'rács-oszlop-end': 'grid-column-end',
                 'rács-oszlop': 'grid-column',
@@ -409,6 +409,9 @@ const hungarianCss = (opts = {}) => {
                 'kereszt': 'crosshair',
                 'nagyítás': 'zoom-in',
                 'kicsinyítés': 'zoom-out',
+
+                'rács': 'grid',
+                'háttér-szín-átmenet': 'background-color',
                 
                 // User Select
                 'kijelölhető': 'text',
