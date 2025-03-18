@@ -1,0 +1,17 @@
+{
+  "name": "hungarian-css",
+  "version": "1.0.1",
+  "description": "Write CSS in Hungarian",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "hungarian",
+    "css"
+  ],
+  "author": "Marton",
+  "license": "ISC"
+}
